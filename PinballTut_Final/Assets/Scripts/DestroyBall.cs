@@ -43,6 +43,7 @@ public class DestroyBall : MonoBehaviour
     private SpriteRenderer golightRenderer;
     private AnimateController golightAniController;
     private SoundController sound;
+    public static int ballcount = 0;
 
     void Start()
     {
@@ -81,6 +82,8 @@ public class DestroyBall : MonoBehaviour
             newObj.transform.position = new Vector3(2.85f, -1f, 0f);
             // reset launcher
             launcherScript.isActive = true;
+            ballcount += 1;
+            return ballcount;
         }
     }
 }
