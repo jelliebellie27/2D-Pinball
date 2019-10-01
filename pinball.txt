@@ -1,0 +1,15 @@
+1.  I added and Intro and Exit screen.
+
+2.  There is a Play Again button.
+
+3.  The game uses the Player's Name.
+
+4.  The game shows the High Score at the end.
+
+5.  The sound can be toggled off and on (special feature).
+
+6.  I changed the color of the background to make it pretty.
+
+7.  I also included instructions.
+
+:)
